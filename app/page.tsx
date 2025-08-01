@@ -1,10 +1,13 @@
 "use client"
 import Navbar from "./components/Navbar";
+import Herosection from "./components/Herosection";
 export default function Home() {
   return (
-    <div className="">
+    <>
       <Navbar />
+      
+      <Herosection />
     
-    </div>
+    </>
   );
 }
