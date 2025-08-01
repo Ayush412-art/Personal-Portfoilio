@@ -13,7 +13,7 @@ import { useRef } from "react"
 // import { useTheme } from "next-themes"
 function Navbar() {
 
-    let menuBar = useRef<HTMLUListElement | null >(null);
+     const menuBar = useRef<HTMLUListElement | null >(null);
 
     const openMenu = () =>{
           menuBar.current?.classList.remove("-right-64") 
