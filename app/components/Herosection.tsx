@@ -3,7 +3,7 @@ import Image from "next/image"
 function Herosection() {
   return (
     <>
-            <section className="w-11/12 max-w-3xl mx-auto my-2 text-center h-screen flex flex-col items-center justify-center gap-2">
+            <section id="home" className="w-11/12 max-w-3xl mx-auto my-2 text-center h-screen flex flex-col items-center justify-center gap-2">
                 <div>
                         <Image src={"/assets/myimg.png"} className="rounded-full" alt="" width={130} height={130}/>
                 </div>

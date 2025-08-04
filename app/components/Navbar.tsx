@@ -28,7 +28,7 @@ function Navbar() {
 
   return (
   <>
-  <div className="fixed top-0 left-0 w-full -z-10 opacity-75 translate-y-[-80%] mb-5">
+  <div  className="fixed top-0 left-0 w-full -z-10 opacity-75 translate-y-[-80%] mb-5">
       <Image src={"/assets/bg-color.png"} alt="bg-color" style={{width : "100%"}} height={0} width={0} />
 
   </div>
@@ -36,19 +36,19 @@ function Navbar() {
             <a href="#Home"><Image src={"/assets/Logo.png"} alt="" width={130} height={130}/></a>
       <ul className="hidden md:flex items-center space-x-3 md:space-x-5 rounded-full py-3 px-10 bg-white opacity-95 shadow-sm ">
   <li>
-    <a className="transition-all duration-500 ease-in-out font-ovo   hover:underline " href="#Home">Home</a>
+    <a className="transition-all duration-500 ease-in-out font-ovo   hover:underline " href="#home">Home</a>
   </li>
   <li>
-    <a className="transition-all duration-500 ease-in-out font-ovo   hover:underline " href="#About me">About me</a>
+    <a className="transition-all duration-500 ease-in-out font-ovo   hover:underline " href="#about">About me</a>
   </li>
   <li>
-    <a className="transition-all duration-500 ease-in-out  font-ovo  hover:underline " href="#Services">Services</a>
+    <a className="transition-all duration-500 ease-in-out  font-ovo  hover:underline " href="#services">Services</a>
   </li>
   <li>
-    <a className="transition-all duration-500 ease-in-out font-ovo  hover:underline " href="#My Projects">My Projects</a>
+    <a className="transition-all duration-500 ease-in-out font-ovo  hover:underline " href="#projects">My Projects</a>
   </li>
   <li>
-    <a className="transition-all duration-500 ease-in-out font-ovo  hover:underline " href="#Contact me">Contact me</a>
+    <a className="transition-all duration-500 ease-in-out font-ovo  hover:underline " href="#contact">Contact me</a>
   </li>
     
     </ul> 
@@ -89,19 +89,19 @@ function Navbar() {
       </div>
 
   <li onClick={closeMenu}>
-    <a className="  transition duration-700 ease-in-out font-ovo" href="#Home">Home</a>
+    <a className="  transition duration-700 ease-in-out font-ovo" href="#home">Home</a>
   </li>
   <li  onClick={closeMenu}>
-    <a className="transition duration-700 ease-in-out font-ovo" href="#About me">About me</a>
+    <a className="transition duration-700 ease-in-out font-ovo" href="#about">About me</a>
   </li  >
   <li  onClick={closeMenu}>
-    <a className="transition duration-700 ease-in-out  font-ovo " href="#Services">Services</a>
+    <a className="transition duration-700 ease-in-out  font-ovo " href="#services">Services</a>
   </li>
   <li  onClick={closeMenu}>
-    <a className="transition duration-700 ease-in-out font-ovo " href="#My Projects">My Projects</a>
+    <a className="transition duration-700 ease-in-out font-ovo " href="#project">My Projects</a>
   </li>
   <li  onClick={closeMenu}>
-    <a className="transition duration-700 ease-in-out font-ovo " href="#Contact me">Contact me</a>
+    <a className="transition duration-700 ease-in-out font-ovo " href="#contact">Contact me</a>
   </li>
     
     </ul> 
