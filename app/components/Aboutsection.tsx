@@ -22,7 +22,7 @@ function Aboutsection() {
           </div>
           <div className="flex-1 py-7">
             <p className="max-w-2xl text-lg font-ovo">
-              I'm Ayush Singh, a graduated B.Tech student at Heritage Institute
+              I am Ayush Singh, a graduated B.Tech student at Heritage Institute
               of Technology, Kolkata(India), with a strong background in{" "}
               <span className="text-teal-500 text-lg md:text-xl ">
                 full-stack development & devops
