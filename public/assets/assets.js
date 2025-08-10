@@ -78,24 +78,24 @@
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Spinix',
+        description: 'A hotel booking system - LLM based',
+        bgImage: '/assets/docs/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Drowsiness detection system',
+        description: 'Full stack drowsiness detection system',
+        bgImage: '/assets/docs/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'HomeGymFix',
+        description: 'Fitness application with 100+ tutorials',
+        bgImage: '/assets/docs/work-3.png',
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        bgImage: '/assets/docs/work-4.png',
     },
 ]
 
