@@ -14,10 +14,10 @@ function Aboutsection() {
     <>
       <section id="about" className="w-full px-[12%] py-10 my-18 scroll-mt-20">
         <div className="flex flex-col items-center ">
-          <Badge variant={"secondary"} className="text-lg font-['ovo'] ">
+          <Badge variant={"secondary"} className="text-lg font-[&quot;ovo&quot;]">
             introduction
           </Badge>
-          <h3 className={`text-3xl font-['Bungee'] md:text-5xl`}>About Me</h3>
+          <h3 className={"text-3xl font-[&quot;Bungee&quot;] md:text-5xl"}>About Me</h3>
         </div>
 
         <div className="flex flex-col lg:flex-row  gap-20 my-18 md:my-20">
@@ -31,23 +31,23 @@ function Aboutsection() {
             />
           </div>
           <div className="flex-1 py-7">
-            <p className="max-w-2xl text-lg font-['ovo']">
+            <p className={"max-w-2xl text-lg font-[&quot;ovo&quot;]"}>
               A Passionate full-stack engineer with experience in{" "}
               <span className="text-teal-500 text-lg md:text-xl ">
                 full-stack development & devops
               </span>{" "}
-              , building scalable and user-friendly web applications. I’ve
+              , building scalable and user-friendly web applications. I have
               worked on real-world projects involving AI, TypeScript, Redis, and
               WebSockets and currently working on python , langchain and django
               to build more LLM based web-apps. Beyond coding, I enjoy cricket,
-              public speaking , Rubik’s cubes, music, traveling, and exploring
-              creative ways to blend technology with everyday life.I've been
+              public speaking , Rubik cubes, music, traveling, and exploring
+              creative ways to blend technology with everyday life.I have been
               worked at Canverro as Full stack intern and currently contributing
               in GSSOC-25 and freelanching.
             </p>
 
             <div className="py-3">
-              <h3 className="font-['outfit'] text-xl">Education</h3>
+              <h3 className={"font-[&quot;outfit&quot;] text-xl"}>Education</h3>
 
               <motion.a
                 initial="hidden"
@@ -63,7 +63,7 @@ function Aboutsection() {
                     height={40}
                   />
                   <div className="flex flex-col leading-tight">
-                    <p className="font-semibold font-['ovo'] text-sm">
+                    <p className={"font-semibold font-[&quot;ovo&quot;] text-sm"}>
                       Heritage Institute of Technology, Kolkata
                     </p>
                     <p className="text-xs text-gray-600">
@@ -119,7 +119,7 @@ function Aboutsection() {
         </div>
 
         <div className="flex flex-col gap-y-4 md:gap-y-5 ">
-          <h3 className="text-center font-['outfit'] text-xl md:text-3xl ">
+          <h3 className={"text-center font-[&quot;outfit&quot;] text-xl md:text-3xl"}>
             Languages and Technologies
           </h3>
           <div className="grid grid-cols-2 lg:grid-cols-8 gap-y-5 md:gap-4 ">

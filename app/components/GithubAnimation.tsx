@@ -21,13 +21,13 @@ const GitHubSnake = () => {
     const interval = setInterval(() => {
       setSnake((prev) => {
         const head = prev[0];
-        let newHead = {
+        const newHead = {
           row: (head.row + 1) % gridRows,
           col: (head.col + 1) % gridCols,
         };
         return [newHead, ...prev.slice(0, prev.length - 1)];
       });
-    }, 300); 
+    }, 200); 
     return () => clearInterval(interval);
   }, []);
 
