@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import {serviceData} from "../../public/assets/assets.js"
-function Services() {
+function Experience() {
   return (
     <section id="services" className="w-full px-[12%] py-10 my-20 scroll-mt-20">
       <div className="flex flex-col items-center relative z-10 ">
@@ -11,8 +11,8 @@ function Services() {
            />
         </div>
 
-        <p className="text-lg font-ovo">what I can bring on table - </p>
-        <h3 className="text-3xl md:text-5xl ">My services</h3>
+        <p className="text-lg font-ovo">Work</p>
+        <h3 className="text-3xl md:text-5xl ">My Experiences</h3>
         <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo">A full-stack developer based in India with experience in freelance projects and remote startups. Skilled in building scalable web applications using modern technologies, passionate about learning new tools, and eager to contribute to impactful projects.</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8 relative z-10 ">
@@ -33,4 +33,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Experience;

@@ -1,5 +1,6 @@
 
 import Image from "next/image"
+import GitHubSnake from "./GithubAnimation"
 function Herosection() {
   return (
     <>
@@ -14,12 +15,15 @@ function Herosection() {
                 
                 <h1 className="text-3xl md:text-4xl font-ovo flex md:gap-2 items-center  ">Software developer based in India<Image src={"/assets/flag.jpg"} alt="" height={35} width={35} /></h1>
 
-                 <p className="max-w-2xl mx-auto font-ovo">I am a full stack software developer from Kolkata , India recently completed my Bachelors of Technology from 
-                    Heritage Institute of Technology. </p>   
+                 <p className="max-w-2xl mx-auto text-lg font-semibold m-2 font-['outfit']">Developer | Engineer | Public speaker </p>   
 
                     <div className="flex flex-col md:flex-row max-w-2xl gap-3.5 mx-auto">
                         <a className="bg-black text-white rounded-full px-10 py-2 flex gap-2 items-center border border-b-gray-500 transition-all duration-300 hover:bg-gray-900" href="#contact">Contact me<Image src={"/assets/right-arrow-white.png"} alt="" height={20} width={20}  /></a>
                         <a href="/assets/docs/MyResume.pdf" download className="px-10 py-2 rounded-full flex items-center  justify-center gap-2 border border-black">Resume<Image src={"/assets/download-icon.png"} alt="download-icon" height={15} width={18} /></a>
+                    </div>
+                    <div className="mt-3 md:mt-5">
+                          <GitHubSnake />
+  
                     </div>
             </section>
     </>

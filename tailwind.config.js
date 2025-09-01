@@ -9,8 +9,9 @@ module.exports =  {
           darkTheme : "#11001F"
         },
         fontFamily :{
-          ovo : ['Ovo' , 'serif'],
-          outfit : ['Outfit' , 'sans-serif']
+          ovo : ['var(--font-ovo)' , 'serif'],
+          outfit : ['var(--font-outfit)' , 'sans-serif'],
+          bungee : ["var(--font-bungee)" , "cursive"]
         }
 
     },
